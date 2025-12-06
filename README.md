@@ -2,7 +2,7 @@
 
 A fully-functional Minesweeper implementation in Java Swing featuring recursive flood-fill algorithm, real-time timer, and interactive flagging system.
 
-## 🎮 Features
+## Features
 
 - **Classic Minesweeper Gameplay** - 10x10 grid with randomized bomb placement
 - **Right-Click Flagging System** - Mark suspected bomb locations to prevent accidental clicks
@@ -12,7 +12,7 @@ A fully-functional Minesweeper implementation in Java Swing featuring recursive 
 - **Win/Loss Detection** - Automatic game-over detection with replay option
 - **Clean GUI** - Professional interface built with Java Swing
 
-## 📸 Screenshots
+## Screenshots
 
 ### Game Start
 ![Game Start](screenshots/game-start.png)
@@ -64,7 +64,7 @@ public void revealCell(int row, int col) {
 - Defensive copying in Grid getters to maintain encapsulation
 - Guard clauses prevent invalid moves (clicking flagged cells, playing after game over)
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
@@ -78,7 +78,7 @@ javac *.java
 java Main
 ```
 
-## 🎯 How to Play
+##  How to Play
 
 1. **Start the game** - Click any cell to begin (timer starts automatically)
 2. **Left-click** to reveal a cell
@@ -99,7 +99,7 @@ Minesweeper/
 └── README.md              # This file
 ```
 
-## 🛠️ Key Classes
+##  Key Classes
 
 ### Grid.java
 - Manages bomb placement using probability-based randomization
@@ -112,15 +112,8 @@ Minesweeper/
 - Manages game state (timer, flags, win/loss conditions)
 - Contains recursive flood-fill algorithm for auto-reveal
 
-## 🔮 Future Enhancements
 
-- [ ] Difficulty level selection (Easy: 8x8, Medium: 10x10, Hard: 16x16)
-- [ ] High score tracking with persistent storage
-- [ ] First-click guarantee (ensure first click is never a bomb)
-- [ ] Color-coded numbers for better visual distinction
-- [ ] Custom grid size and bomb count settings
-
-## 📚 What I Learned
+##  What I Learned
 
 - **Recursive Algorithms** - Implementing flood-fill for graph traversal
 - **GUI Programming** - Java Swing components, layouts, and event handling
@@ -128,11 +121,11 @@ Minesweeper/
 - **Software Design** - Separation of concerns (Grid backend vs GUI frontend)
 - **Event-Driven Programming** - Responding to user input via listeners
 
-## 📝 License
+##  License
 
 This project was created as a learning exercise and portfolio piece. Feel free to use it for educational purposes.
 
-## 👤 Author
+##  Author
 
 Fidel Perez
 - GitHub: [@FidelAP-19](https://github.com/FidelAP-19)
